@@ -8,7 +8,7 @@ signIn.onclick= function(){
     title.innerHTML= "Login";
     signOp.classList.add("disable");
     signIn.classList.remove("disable");
-    location.href = "/pagina.html"
+    //location.href = "/pagina.html"
 }
 
 signOp.onclick= function(){
@@ -16,5 +16,6 @@ signOp.onclick= function(){
     title.innerHTML= "Registro";
     signOp.classList.remove("disable");
     signIn.classList.add("disable");
+    
 }
 

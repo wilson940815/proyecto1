@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+div {
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+div.Contacto {
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    padding: 1em;
+
+
+}
+
+
+
+div.button{
+background-color: #fff;
+min-width: 700px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.button a {
+
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+}
